@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: concept-manage-k8s.html 
+keywords: overview, manage, k8s, kubernetes 
+summary: Mit BlueXP können Sie Astra Trident installieren, Storage-Klassen konfigurieren, Cluster entfernen und Datenservices aktivieren. 
+---
+= Managen Sie Kubernetes-Cluster
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+Mit BlueXP können Sie Astra Trident installieren oder aktualisieren, Storage-Klassen konfigurieren, Cluster entfernen und Datenservices aktivieren.
+
+
+NOTE: Astra Trident ist implementiert mit `tridentctl` Wird nicht unterstützt. Bei der Implementierung von Astra Trident mit `tridentctl`, Sie können BlueXP nicht für das Management Ihrer Kubernetes-Cluster verwenden. Unbedingt  Und Neuinstallation link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Verwenden des Betreibers von Trident"^] Oder link:./tasks/task-k8s-manage-trident.html["Verwendung von BlueXP"].
+
+
+
+== Funktionen
+
+Nachdem Sie BlueXP Kubernetes-Cluster hinzugefügt haben, können Sie die Cluster über die Ressourcenseite verwalten. Doppelklicken Sie auf die Kubernetes-Arbeitsumgebung auf dem Canvas, um die Ressourcenseite zu öffnen.
+
+image:screenshot-k8s-resource-page.png["Ein Screenshot der Kubernetes-Seite mit Details für das Cluster"]
+
+Auf der Ressourcen-Seite können Sie:
+
+* Anzeigen des Kubernetes Cluster-Status
+* Überprüfen Sie, ob die kompatible Version von Astra Trident installiert ist oder ob Sie ein Upgrade auf die neueste Version von Astra Trident durchführen. Siehe link:./task/task-k8s-manage-trident.html["Installation Von Astra Trident"].
+* Speicherklassen hinzufügen und entfernen. Siehe link:./task/task-k8s-manage-storage-classes.html["Management von Storage-Klassen"].
+* Anzeige persistenter Volumes Siehe link:./task/task-k8s-manage-persistent-volumes.html["Anzeige persistenter Volumes"].
+* Entfernen Sie Kubernetes Cluster aus dem Workspace. Siehe link:./task/task-k8s-manage-remove-cluster.html["Cluster entfernen"].
+* Cloud Backup aktivieren oder anzeigen Siehe link:./task/task-kubernetes-enable-services.html["Nutzen Sie NetApp Cloud-Datenservices"].
+

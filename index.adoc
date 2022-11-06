@@ -1,0 +1,15 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+summary: Fügen Sie Ihre Managed Kubernetes Cluster zu BlueXP hinzu, um erweitertes Datenmanagement zu ermöglichen. 
+---
+= Dokumentation für Kubernetes-Cluster
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+

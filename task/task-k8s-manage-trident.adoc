@@ -1,0 +1,44 @@
+---
+sidebar: sidebar 
+permalink: /task/task-k8s-manage-trident.html 
+keywords: kubernetes, k8s, install astra trident, kubernetes support 
+summary: Nachdem Sie einen Managed-Kubernetes-Cluster zu Canvas hinzugefügt haben, können Sie mit BlueXP eine kompatible Astra Trident Installation bestätigen oder Astra Trident installieren. Eine der vier aktuellsten Versionen von Astra Trident ist erforderlich. 
+---
+= Installation oder Upgrade von Astra Trident
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Nachdem Sie einen gemanagten Kubernetes Cluster zum Canvas hinzugefügt haben, können Sie mit BlueXP eine kompatible Astra Trident Installation bestätigen oder Astra Trident auf die neueste Version installieren oder aktualisieren.
+
+[NOTE]
+====
+* Wenn Astra Trident nicht installiert ist oder eine inkompatible Version von Astra Trident installiert ist, wird im Cluster angezeigt, dass eine Aktion erforderlich ist.
+* Eine der vier aktuellsten Versionen von Astra Trident ist mit dem Trident-Operator implementiert – entweder manuell oder mit Helm-Chart.
+* Astra Trident ist implementiert mit `tridentctl` Wird nicht unterstützt. Bei der Implementierung von Astra Trident mit `tridentctl`, Sie können BlueXP nicht für das Management Ihrer Kubernetes-Cluster verwenden. Unbedingt  Und Neuinstallation link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Verwenden des Betreibers von Trident"^] Oder verwenden Sie die nachstehenden Schritte.
+
+
+====
+Weitere Informationen zu Astra Trident finden Sie unter link:https://docs.netapp.com/us-en/trident/index.html["Astra Trident-Dokumentation"^].
+
+.Schritte
+. Doppelklicken Sie auf der Arbeitsfläche von Kubernetes auf die Arbeitsumgebung oder klicken Sie auf *Arbeitsumgebung eingeben*.
++
+.. Falls Astra Trident nicht installiert ist, klicken Sie auf *Trident installieren*.
++
+image:screenshot-k8s-install-trident.png["Ein Screenshot der K8s-Ressourcenseite mit keiner Installation von Astra Trident und Schaltfläche zur Installation von Astra Trident."]
+
+.. Wenn eine nicht unterstützte Version von Astra Trident installiert ist, klicken Sie auf *Upgrade Trident*.
++
+image:screenshot-k8s-upgrade-trident.png["Einen Screenshot, wie das Upgrade von Astra Trident durchgeführt wird"]
+
+
+
+
+
+Die neueste Version von Astra Trident ist installiert. Sie können nun Speicherklassen hinzufügen.

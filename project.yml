@@ -1,0 +1,74 @@
+---
+settings:
+  name: Kubernetes clusters
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: de-de,us-en,ja-jp,zh-cn,zh-tw,ko-kr,fr-fr
+sidebar:
+  entries:
+  - title: Kubernetes Cluster-Dokumentation
+    url: "/index.html"
+  - title: Versionshinweise
+    url: "/whats-new.html"
+  - title: Los geht's
+    entries:
+    - title: Kubernetes-Datenmanagement
+      url: "/concept-kubernetes.html"
+    - title: Schnellstart
+      url: "/task/task-k8s-quick-start.html"
+  - title: Anforderungen
+    entries:
+    - title: Kubernetes-Cluster auf AWS
+      flavor: aws
+      url: "/requirements/kubernetes-reqs-aws.html"
+    - title: Kubernetes-Cluster auf Azure
+      flavor: azure
+      url: "/requirements/kubernetes-reqs-aks.html"
+    - title: Kubernetes-Cluster auf Google Cloud
+      flavor: gcp
+      url: "/requirements/kubernetes-reqs-gke.html"
+    - title: Kubernetes-Cluster auf OpenShift
+      url: "/requirements/kubernetes-reqs-openshift.html"
+  - title: Fügen Sie Kubernetes Cluster hinzu
+    entries:
+    - title: Fügen Sie Cluster bei AWS hinzu
+      flavor: aws
+      url: "/task/task-kubernetes-discover-aws.html"
+    - title: Fügen Sie bei Azure Cluster hinzu
+      flavor: azure
+      url: "/task/task-kubernetes-discover-azure.html"
+    - title: Fügen Sie Cluster bei Google Cloud hinzu
+      flavor: gcp
+      url: "/task/task-kubernetes-discover-gke.html"
+    - title: Fügen Sie Cluster auf OpenShift hinzu
+      url: "/task/task-kubernetes-discover-openshift.html"
+  - title: Managen Sie Kubernetes-Cluster
+    url: "/concept-manage-k8s.html"
+    entries:
+    - title: Installation oder Upgrade von Astra Trident
+      url: "/task/task-k8s-manage-trident.html"
+    - title: Management von Storage-Klassen
+      url: "/task/task-k8s-manage-storage-classes.html"
+    - title: Anzeige persistenter Volumes
+      url: "/task/task-k8s-manage-persistent-volumes.html"
+    - title: Cluster entfernen
+      url: "/task/task-k8s-manage-remove-cluster.html"
+    - title: Bereitstellung von NetApp Cloud-Datenservices
+      url: "/task/task-kubernetes-enable-services.html"
+  - title: Wissen und Support
+    entries:
+    - title: Für den Support anmelden
+      url: "/support/task-support-registration.html"
+    - title: Holen Sie sich Hilfe
+      url: "/support/task-get-help.html"
+  - title: Rechtliche Hinweise
+    url: "/legal-notices.html"
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: Alle BlueXP-Dokumentationen

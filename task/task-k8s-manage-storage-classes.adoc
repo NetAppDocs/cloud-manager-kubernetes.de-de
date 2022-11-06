@@ -1,0 +1,104 @@
+---
+sidebar: sidebar 
+permalink: /task/task-k8s-manage-storage-classes.html 
+keywords: kubernetes, k8s, add storage class, remove storage class 
+summary: Nachdem Sie ein Managed-Kubernetes-Cluster zu Canvas hinzugefügt haben, können Sie BlueXP zum Verwalten von Speicherklassen verwenden. 
+---
+= Management von Storage-Klassen
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+
+
+[role="lead"]
+Nachdem Sie einen verwalteten Kubernetes-Cluster zu Canvas hinzugefügt haben, können Sie BlueXP zum Verwalten von Speicherklassen verwenden.
+
+
+NOTE: Wenn keine Storage-Klasse definiert ist, wird im Cluster eine Aktion angezeigt, die erforderlich ist. Durch Doppelklicken auf das Cluster auf der Arbeitsfläche wird die Aktionsseite geöffnet, um eine Speicherklasse hinzuzufügen.
+
+
+
+== Fügen Sie eine Storage-Klasse hinzu
+
+.Schritte
+. Klicken Sie auf dem Bildschirm auf die Kubernetes-Arbeitsumgebung per Drag and Drop in die Arbeitsumgebung Cloud Volumes ONTAP oder Amazon FSX für ONTAP, um den Storage-Klassen-Assistenten zu öffnen.
+. Geben Sie einen Namen für die Speicherklasse ein.
+. Wählen Sie *Filesystem* oder *Block*-Speicher aus.
++
+.. Wählen Sie für *Block*-Speicher einen Dateisystemtyp (fstype) aus.
++
+image:screenshot-k8s-storage-fstype.png["Ein Screenshot mit der Option fstype für Blockspeicher bei der Konfiguration einer K8s-Speicherklasse."]
+
+.. Für *Block* oder *Filesystem*-Speicher können Sie wählen, um die Wirtschaftlichkeit der Storage-Klasse zu ermöglichen.
++
+image:screenshot-k8s-storage-economy.png["Ein Screenshot mit der Speichersparfunktion bei der Konfiguration eines Blocks oder der K8s Speicherklasse."]
+
++
+
+NOTE: Backup und Restore werden in wirtschaftlicher Nutzung von Storage-Klasse nicht unterstützt.
+
+
+
+. Wählen Sie Optionen für Volume-Erweiterung, Volume-Bindung und Standard-Storage-Klasse aus. Klicken Sie Auf *Weiter*.
+. Wählen Sie eine Arbeitsumgebung aus, in der eine Verbindung zum Cluster hergestellt werden soll. Klicken Sie Auf *Hinzufügen*.
++
+image:screenshot-k8s-select-storage-class.png["Ein Screenshot zeigt die Auswahl der Arbeitsumgebung für das Kubernetes Cluster."]
+
+
+
+Sie können auf klicken, um die Storage-Klasse auf der Ressourcenseite für das Kubernetes-Cluster anzuzeigen.
+
+image:screenshot-k8s-view-storage-class.png["Ein Screenshot mit „View Storage Class“ auf der Kubernetes Ressourcenseite."]
+
+
+
+== Details zur Arbeitsumgebung anzeigen
+
+.Schritte
+. Doppelklicken Sie auf der Arbeitsfläche von Kubernetes auf die Arbeitsumgebung oder klicken Sie auf *Arbeitsumgebung eingeben*.
+. Klicken Sie auf die Registerkarte *Speicherklassen*.
+. Klicken Sie auf das Informationssymbol, um Details zur Arbeitsumgebung anzuzeigen.
+
+
+Das Fenster Details zur Arbeitsumgebung wird geöffnet.
+
+image:screenshot-k8s-info-storage-class.png["Einen Screenshot mit den Details der Arbeitsumgebung für das Kubernetes Cluster"]
+
+
+
+== Legen Sie die Standard-Storage-Klasse fest
+
+.Schritte
+. Doppelklicken Sie auf der Arbeitsfläche von Kubernetes auf die Arbeitsumgebung oder klicken Sie auf *Arbeitsumgebung eingeben*.
+. Klicken Sie auf die Registerkarte *Speicherklassen*.
+. Klicken Sie auf das Aktionsmenü für die Speicherklasse und klicken Sie auf *als Standard*.
++
+image:screenshot-k8s-default-storage-class.png["Ein Screenshot des Aktionsmenüs, in dem die Standard-Speicherklasse eingestellt wird."]
+
+
+
+Die ausgewählte Speicherklasse wird als Standard festgelegt.
+
+image:screenshot-k8s-default-set-storage-class.png["Ein Screenshot mit der Standard-Speicherklasse."]
+
+
+
+== Speicherklasse entfernen
+
+.Schritte
+. Doppelklicken Sie auf der Arbeitsfläche von Kubernetes auf die Arbeitsumgebung oder klicken Sie auf *Arbeitsumgebung eingeben*.
+. Klicken Sie auf die Registerkarte *Speicherklassen*.
+. Klicken Sie auf das Aktionsmenü für die Speicherklasse und klicken Sie auf *als Standard*.
++
+image:screenshot-k8s-remove-storage-class.png["Ein Screenshot des Aktionsmenüs, um die Speicherklasse zu entfernen."]
+
+. Klicken Sie auf *Entfernen*, um das Entfernen der Speicherklasse zu bestätigen.
++
+image:screenshot-k8s-remove-confirm-storage-class.png["Ein Screenshot des Bestätigungsbildschirms, um die Speicherklasse zu entfernen."]
+
+
+
+Die ausgewählte Speicherklasse wird entfernt.

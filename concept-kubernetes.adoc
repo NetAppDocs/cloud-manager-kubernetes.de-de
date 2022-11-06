@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: concept-kubernetes.html 
+keywords: kubernetes, k8s, back up kubernetes, back up k8s, discover kubernetes cluster, discover k8s, amazon eks, eks, azure, aks, back up persistent volumes, persistent volumes, kubernetes support, cloud manager 
+summary: Astra Trident ist ein vollständig von NetApp unterstütztes Open-Source-Projekt. Astra Trident lässt sich nativ mit Kubernetes und dessen Persistent Volume Framework integrieren und ermöglicht das nahtlose Bereitstellen und Managen von Volumes auf Systemen, auf denen beliebige Kombinationen von NetApp Storage-Plattformen ausgeführt werden. 
+---
+= Kubernetes-Datenmanagement in BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Astra Trident ist ein vollständig von NetApp unterstütztes Open-Source-Projekt. Astra Trident lässt sich nativ mit Kubernetes und dessen Persistent Volume Framework integrieren und ermöglicht das nahtlose Bereitstellen und Managen von Volumes auf Systemen, auf denen beliebige Kombinationen von NetApp Storage-Plattformen ausgeführt werden. link:https://docs.netapp.com/us-en/trident/index.html["Weitere Informationen zu Trident"^].
+
+
+
+== Funktionen
+
+Mit einer kompatiblen Version von Astra Trident, die über den Trident Operator implementiert wurde, können Sie Ihre Kubernetes-Cluster mithilfe von BlueXP (ehemals Cloud Manager) direkt managen.
+
+* Installation oder Upgrade von Astra Trident:
+* Hinzufügen und Managen von Clustern in Ihrer Hybrid-Cloud-Infrastruktur
+* Hinzufügen und Verwalten von Speicherklassen und Verbinden dieser mit Arbeitsumgebungen.
+* Backup persistenter Volumes mit Cloud Backup Service –
+
+
+
+
+== Unterstützte Kubernetes-Implementierungen
+
+BlueXP unterstützt Managed-Kubernetes-Cluster in folgenden Bereichen:
+
+* link:./requirements/kubernetes-reqs-aws.html["Amazon Elastic Kubernetes Service (Amazon EKS)"]
+* link:./requirements/kubernetes-reqs-aks.html["Microsoft Azure Kubernetes Service (AKS)"]
+* link:./requirements/kubernetes-reqs-gke.html["Google Kubernetes Engine (GKE)"]
+
+
+
+
+== Unterstützte Astra Trident Implementierungen
+
+Eine der vier aktuellsten Versionen von Astra Trident link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-deploy-operator.html["Implementierung über den Trident-Operator"^] Ist erforderlich.
+
+Sie können die aktuelle Version von Astra Trident direkt von BlueXP installieren oder upgraden.
+
+link:https://docs.netapp.com/us-en/trident/trident-get-started/requirements.html["Voraussetzungen für Astra Trident prüfen"^]
+
+
+
+== Unterstützter Back-End Storage
+
+NetApp Astra Trident muss auf jedem Kubernetes Cluster installiert sein, und Cloud Volumes ONTAP oder Amazon FSX für ONTAP muss als Back-End Storage für die Cluster konfiguriert werden.
+
+
+
+== Kosten
+
+Es fallen keine Kosten an, Ihre Kubernetes Cluster in BlueXP zu entdecken_. Beim Backup persistenter Volumes mit Cloud Backup Service fallen Ihnen die Gebühren an.

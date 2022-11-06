@@ -1,0 +1,144 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, cloud manager' 
+summary: Informieren Sie sich über die Neuerungen bei Kubernetes in BlueXP. 
+---
+= Was ist neu bei Kubernetes in BlueXP
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Die Neuerungen in Kubernetes finden Sie in BlueXP (früher Cloud Manager).
+
+
+
+== 06. November 2022
+
+Wenn link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["Definieren von Speicherklassen"], Sie können jetzt Storage-Klasse Economy für Block- oder Dateisystem-Speicher aktivieren.
+
+
+
+== 18. September 2022
+
+Selbst gemanagte OpenShift-Cluster können jetzt in Cloud Manager importiert werden.
+
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-openshift.html["Anforderungen für Kubernetes-Cluster in OpenShift"]
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-add-openshift.html["Fügen Sie einem OpenShift-Cluster zu Cloud Manager hinzu"]
+
+
+
+
+== 31 Juli 2022
+
+* Verwenden der neuen `- watch` Verb in der Storage-Klasse sowie Backup- und Restore-Konfigurationen von YAML kann Cloud Manager jetzt Kubernetes-Cluster auf Änderungen am Cluster-Backend überwachen und das Backup für neue persistente Volumes automatisch aktivieren, wenn auf dem Cluster ein automatisches Backup konfiguriert wurde.
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aws.html["Anforderungen an Kubernetes-Cluster in AWS"]
+
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Anforderungen an Kubernetes Cluster in Azure"]
+
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Anforderungen für Kubernetes-Cluster in Google Cloud"]
+
+* Wenn link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["Definieren von Speicherklassen"], Sie können jetzt einen Dateisystemtyp (fstype) für Block Storage angeben.
+
+
+
+
+== 3 Juli 2022
+
+* Wenn Astra Trident über den Trident Operator implementiert wurde, können Sie jetzt mithilfe von Cloud Manager auf die neueste Version von Astra Trident upgraden.
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-trident.html["Installation und Management von Astra Trident"]
+
+* Sie können jetzt Ihren Kubernetes-Cluster per Drag & Drop in die Arbeitsumgebung AWS FSX for ONTAP verschieben, um eine Storage-Klasse direkt aus dem Canvas hinzuzufügen.
++
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["Fügen Sie eine Storage-Klasse hinzu"]
+
+
+
+
+
+== 6. Juni 2022
+
+Cloud Manager verbietet jetzt Amazon FSX für ONTAP als Backend-Storage.
+
+
+
+== 4 Mai 2022
+
+
+
+=== Ziehen Sie die Maus per Drag-and-Drop, um eine Speicherklasse hinzuzufügen
+
+Sie können jetzt Ihren Kubernetes-Cluster ziehen und in die Cloud Volumes ONTAP-Arbeitsumgebung ablegen, um eine Storage-Klasse direkt aus dem Canvas hinzuzufügen.
+
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html#add-storage-classes["Fügen Sie eine Storage-Klasse hinzu"]
+
+
+
+== 4. April 2022
+
+
+
+=== Managen Sie Kubernetes-Cluster über die Seite der Cloud Manager Ressourcen
+
+Das Kubernetes-Cluster-Management bietet jetzt eine direkte Integration in die Cluster-Arbeitsumgebung. Eine neue link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-quick-start.html["Schnellstart"] Starten Sie schnell.
+
+Sie können jetzt auf der Seite „Cluster-Ressource“ die folgenden Aktionen ausführen.
+
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-trident.html["Installation Von Astra Trident"]
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-storage-classes.html["Fügen Sie Speicherklassen hinzu"]
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-persistent-volumes.html["Anzeige persistenter Volumes"]
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-k8s-manage-remove-cluster.html["Cluster entfernen"]
+* link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-enable-services.html["Unterstützung von Datenservices"]
+
+
+
+
+== 27 Februar 2022
+
+
+
+=== Unterstützung von Kubernetes-Clustern in Google Cloud
+
+Verwaltete Google Kubernetes Engine (GKE)-Cluster und automatisierte Kubernetes-Cluster in Google Cloud können jetzt über Cloud Manager hinzugefügt und gemanagt werden.
+
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Erste Schritte mit Kubernetes-Clustern in der Google Cloud"].
+
+
+
+== 11 Januar 2022
+
+
+
+=== Unterstützung für Kubernetes-Cluster in Azure
+
+Verwaltete Azure Kubernetes-Cluster (AKS) und automatisierte Kubernetes-Cluster in Azure können jetzt mithilfe von Cloud Manager hinzugefügt und gemanagt werden.
+
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-aks.html["Erste Schritte mit Kubernetes Clustern in Azure"]
+
+
+
+== 28. November 2021
+
+
+
+=== Unterstützung von Kubernetes-Clustern in AWS
+
+Managed-Kubernetes-Cluster können jetzt in Canvas von Cloud Manager hinzugefügt werden, um erweitertes Datenmanagement zu ermöglichen.
+
+* Amazon EKS Cluster entdecken
+* Erstellen Sie Backups persistenter Volumes mit Cloud Backup
+
+
+link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/concept-kubernetes.html["Erfahren Sie mehr über die Unterstützung von Kubernetes"].
+
+
+TIP: Der vorhandene Kubernetes-Service (verfügbar über die Registerkarte *K8s*) ist veraltet und wird in einer zukünftigen Version entfernt.
