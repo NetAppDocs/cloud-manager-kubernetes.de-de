@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cloud-manager-kubernetes | NetApp Documentation</title>
+    <atom:link href="https://docs.netapp.com/de-de/cloud-manager-kubernetes/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/de-de/cloud-manager-kubernetes</link>
+    <description>The latest updates from NetApp Documentation</description>
+    <language>de-de</language>
+    <ttl>60</ttl>
+    <pubDate>Thu, 17 Nov 2022 06:55:33 +0000</pubDate>
+    <lastBuildDate>Thu, 17 Nov 2022 06:55:33 +0000</lastBuildDate>
+    
+    
+    
+    <item>
+      <title>Was ist neu bei Kubernetes in BlueXP (17 Nov 2022)</title>
+      <pubDate>Thu, 17 Nov 2022 06:52:39 +0000</pubDate>
+      <link>https://docs.netapp.com/de-de/cloud-manager-kubernetes/whats-new.html?time=1668667959</link>
+      <guid isPermaLink="false">Thu, 17 Nov 2022 06:52:39 +0000</guid>
+      <description><![CDATA[ Informieren Sie sich über die Neuerungen bei Kubernetes in BlueXP. ]]></description>
+    </item>
+    
+    
+  </channel>
+</rss>
