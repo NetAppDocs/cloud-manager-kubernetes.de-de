@@ -219,7 +219,6 @@
   <block id="8f696d5a5f9b66b14465e6edd8c0ec21" category="doc">Kubernetes-Datenmanagement in BlueXP</block>
   <block id="d202d8021b40bfbe11235a5a65c0fe8c" category="inline-link-macro">Weitere Informationen zu Trident</block>
   <block id="4f63c1d4acd536bd5b9a9745d3f20e7b" category="paragraph">Astra Trident ist ein vollständig von NetApp unterstütztes Open-Source-Projekt. Astra Trident lässt sich nativ mit Kubernetes und dessen Persistent Volume Framework integrieren und ermöglicht das nahtlose Bereitstellen und Managen von Volumes auf Systemen, auf denen beliebige Kombinationen von NetApp Storage-Plattformen ausgeführt werden. <block ref="dd2206fc656d0a859de4039d89433dfe" category="inline-link-macro-rx"></block>.</block>
-  <block id="e961fd0a6b508c0d0618d0f893d177ba" category="paragraph">Mit einer kompatiblen Version von Astra Trident, die über den Trident Operator implementiert wurde, können Sie Ihre Kubernetes-Cluster mithilfe von BlueXP (ehemals Cloud Manager) direkt managen.</block>
   <block id="3a6729951b75ba10964e07a3b4768c91" category="list-text">Installation oder Upgrade von Astra Trident:</block>
   <block id="3e1566822574596f61c1fe009087856e" category="list-text">Hinzufügen und Managen von Clustern in Ihrer Hybrid-Cloud-Infrastruktur</block>
   <block id="aa6e96555ed26ef1dcb622e5b13653ae" category="list-text">Hinzufügen und Verwalten von Speicherklassen und Verbinden dieser mit Arbeitsumgebungen.</block>
@@ -262,9 +261,7 @@
   <block id="00fc9d0c515c69ea2c368521453d982e" category="inline-xref">Erfahren Sie, wie Sie sich mit NetApp anmelden können</block>
   <block id="97454ce87333f7ebd50ee38b8126fb39" category="paragraph"><block ref="37544f11913357c4e8c8a4ec607ae247" category="inline-xref-macro-rx"></block>.</block>
   <block id="a92ec860f505b318fd0f0eba6165d607" category="section-title">Fügen Sie ein NSS-Konto zu BlueXP hinzu</block>
-  <block id="77bdda0b5be7d2725f2b5941d74db0e2" category="paragraph">Über das Support Dashboard können Sie Ihre NetApp Support Site Konten für die Verwendung mit Cloud Manager hinzufügen und managen.</block>
   <block id="328a2c1e7778e9edaf79d90c51409ac4" category="list-text">Wenn Sie über ein Konto auf Kundenebene verfügen, können Sie ein oder mehrere NSS-Konten hinzufügen.</block>
-  <block id="4fde72c535fd0cd463dbeb49347cdfae" category="list-text">Wenn Sie ein Partner- oder Reseller-Konto haben, können Sie ein oder mehrere NSS-Konten hinzufügen, aber sie können nicht neben Kunden-Level-Accounts hinzugefügt werden.</block>
   <block id="1afe19576f77bb0073c93359ed2cbb18" category="list-text">Klicken Sie oben rechts in der BlueXP-Konsole auf das Hilfesymbol, und wählen Sie *Support*.</block>
   <block id="b50f0a46135bcb7083b1f2f82032fc26" category="inline-image-macro">Ein Screenshot des Hilfemenü, in dem Support die erste Option aufgeführt ist</block>
   <block id="868d9aa88f16ea923af1d15eac5d2647" category="paragraph"><block ref="868d9aa88f16ea923af1d15eac5d2647" category="inline-image-macro-rx" type="image"></block></block>
@@ -294,17 +291,14 @@
   <block id="5226d4ec1f4f81b740cbbd27635b441f" category="list-text">Kopieren Sie unbedingt die oben verwendete BlueXP-Kontonummer (960xxxx) für das Feld Seriennummer. Dadurch wird die Kontobearbeitung beschleunigt.</block>
   <block id="e9b1f53d6cabb3394833a4e102eb6a69" category="section-title">Neu bei NetApp</block>
   <block id="c20c107d0d4eef6351660f3590324232" category="paragraph">Wenn Sie neu bei NetApp sind und über keinen NSS-Account verfügen, befolgen Sie jeden Schritt unten.</block>
-  <block id="59dd2a274c2c6a3cc5b3dce08109019d" category="list-text">Suchen Sie die Seriennummer Ihres Cloud Manager-Kontos auf der Seite für die Support-Registrierung.</block>
   <block id="ef5e63bb6b6827440a13cc2ec7e9cf56" category="paragraph"><block ref="ef5e63bb6b6827440a13cc2ec7e9cf56" category="inline-image-macro-rx" type="image"></block></block>
   <block id="dd50e314c18933734174c1156dd9237f" category="inline-link">Die Support-Registrierungs-Website von NetApp</block>
   <block id="78f94e749b89d69dcbf3baff21ccb958" category="list-text">Navigieren Sie zu<block ref="e1c4be66250fd76d5c52bfe2cb7daee2" category="inline-link-rx"></block> Und wählen Sie *Ich bin kein registrierter NetApp Kunde*.</block>
   <block id="d4f633ef130727b2776fa7f45024ca7d" category="list-text">Füllen Sie die Pflichtfelder aus (mit roten Sternchen).</block>
   <block id="1128fc8d5ec64880f4d49337ed798d31" category="list-text">Wählen Sie im Feld *Product Line* die Option *Cloud Manager* aus, und wählen Sie dann den gewünschten Abrechnungsanbieter aus.</block>
-  <block id="1192dec4cc2b923397748a651cef178f" category="list-text">Kopieren Sie die Seriennummer des Cloud Manager Kontos von Schritt 2 oben, füllen Sie die Sicherheitsprüfung aus und bestätigen Sie dann, dass Sie die globale Datenschutzrichtlinie von NetApp lesen.</block>
   <block id="3a24c87c9971d2011b4df223718f84b4" category="paragraph">Zur Fertigstellung dieser sicheren Transaktion wird sofort eine E-Mail an die angegebene Mailbox gesendet. Überprüfen Sie Ihre Spam-Ordner, wenn die Validierungs-E-Mail nicht in wenigen Minuten ankommt.</block>
   <block id="03413baeca1ff7222737d8ce299bd4e8" category="list-text">Bestätigen Sie die Aktion in der E-Mail.</block>
   <block id="201080500e946070a2e4873042507c77" category="paragraph">Indem Sie Ihre Anfrage an NetApp senden, wird Ihnen die Erstellung eines NetApp Support Site Kontos empfohlen.</block>
-  <block id="d6cb31c22f8f843a781cccec33157281" category="list-text">Kopieren Sie die oben angegebene Cloud Manager Account Seriennummer (960xxxx) für das Feld Seriennummer. Dadurch wird die Kontobearbeitung beschleunigt.</block>
   <block id="684375e279a289295b72a006d93e2c4c" category="paragraph">NetApp sollte sich bei diesem Prozess mit Ihnen in Verbindung setzen. Dies ist eine einmalige Onboarding-Übung für neue Benutzer.</block>
   <block id="1c0e45ef07d0dbc13ca2394d5e285fd7" category="paragraph">Sobald Sie Ihren NetApp Support Site Account besitzen, können Sie im Portal BlueXP diesen NSS-Account für zukünftige Registrierungen hinzufügen.</block>
   <block id="c9df4195a305212ffd7b56d24f67129d" category="summary">NetApp bietet Unterstützung für BlueXP auf verschiedene Weise. Umfassende kostenlose Self-Support-Optionen stehen rund um die Uhr zur Verfügung, wie etwa Knowledge Base-Artikel (KB) und ein Community-Forum. Ihre Support-Registrierung umfasst technischen Remote-Support über Web-Ticketing.</block>
@@ -497,7 +491,6 @@
   <block id="ac6d0965f33632c33b532767c5f5cf1a" category="summary">Fügen Sie in BlueXP Kubernetes-Cluster hinzu, um ein erweitertes Datenmanagement in nur wenigen Schritten zu ermöglichen.</block>
   <block id="79e470c48afbbe1fa9e042e6403d2459" category="doc">Erste Schritte mit Kubernetes Clustern</block>
   <block id="06ad314b340900d226b1196e1fe289e9" category="section-title">Schnellstart</block>
-  <block id="6c5ac2a580024aab98e753e5c4dc264c" category="paragraph">Führen Sie die folgenden Schritte aus, um schnell zu beginnen:</block>
   <block id="2fadcb7c66778a6e996282a9d85d69d3" category="paragraph">Stellen Sie sicher, dass Ihre Umgebung die Voraussetzungen für Ihren Cluster-Typ erfüllt.</block>
   <block id="36e8382aa83e74f8ba70303f62ce8d15" category="paragraph"><block ref="36e8382aa83e74f8ba70303f62ce8d15" category="inline-link-macro-rx"></block></block>
   <block id="8a7acc1f3e4ade2ee389a4e59f39bf28" category="paragraph"><block ref="8a7acc1f3e4ade2ee389a4e59f39bf28" category="inline-link-macro-rx"></block></block>
@@ -608,4 +601,13 @@
   <block id="33729732e4c013e81e5576920fedbc76" category="sidebar">Bereitstellung von NetApp Cloud-Datenservices</block>
   <block id="0adc03eac86772ad2c75c8f140be417e" category="sidebar">Wissen und Support</block>
   <block id="7a45e6298bb69116e2c6db653fb88884" category="sidebar">Alle BlueXP-Dokumentationen</block>
+  <block id="9b9477e579c3b44dd623d5a6e1ea8d78" category="inline-link-macro">BlueXP</block>
+  <block id="7caa90f14b457665f7fa695360ecb815" category="paragraph">Mit einer kompatiblen Version von Astra Trident, die über den Trident Operator implementiert wurde, können Sie Ihre Kubernetes-Cluster direkt über managen <block ref="541c088337155bc1f5030ebf639984c7" category="inline-link-macro-rx"></block> (Ehemals Cloud Manager)</block>
+  <block id="f2575f6d19024f7288cf78d7dc5b3db9" category="paragraph">Über das Support Dashboard können Sie Ihre NetApp Support Site Konten zur Verwendung mit BlueXP hinzufügen und managen.</block>
+  <block id="e3cd99e4aa330ae6bdfb3754d83ae962" category="list-text">Wenn Sie einen Partner- oder Reseller-Account haben, können Sie ein oder mehrere NSS-Konten hinzufügen, können aber nicht neben Kunden-Level Accounts hinzugefügt werden.</block>
+  <block id="2974170a8b1b5b4a2ac69aacd4c1c9c3" category="list-text">Suchen Sie auf der Seite für die Support-Registrierung die Seriennummer Ihres Kontos.</block>
+  <block id="50a1dc01b7312307c34a888071586955" category="list-text">Kopieren Sie die Seriennummer des Kontos von Schritt 2 oben, füllen Sie die Sicherheitsprüfung aus und bestätigen Sie dann, dass Sie die globale Datenschutzrichtlinie von NetApp lesen.</block>
+  <block id="cc8b0535948da368f832027c19b7f853" category="list-text">Kopieren Sie die oben angegebene Seriennummer (960xxxx) für das Feld „Seriennummer“. Dadurch wird die Kontobearbeitung beschleunigt.</block>
+  <block id="485af08837450e02af336c55571fef57" category="paragraph">Fügen Sie in nur wenigen Schritten Kubernetes-Cluster zu BlueXP hinzu, um erweitertes Datenmanagement zu ermöglichen.</block>
+  <block id="c0a71f242f9a20837eeb221262b5ec52" category="paragraph">Wird Verwendet <block ref="541c088337155bc1f5030ebf639984c7" category="inline-link-macro-rx"></block> Sie können Kubernetes-Cluster in nur wenigen Schritten managen.</block>
 </blocks>

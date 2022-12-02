@@ -14,13 +14,13 @@ summary: Fügen Sie in BlueXP Kubernetes-Cluster hinzu, um ein erweitertes Daten
 
 
 [role="lead"]
-Fügen Sie in BlueXP Kubernetes-Cluster hinzu, um ein erweitertes Datenmanagement in nur wenigen Schritten zu ermöglichen.
+Fügen Sie in nur wenigen Schritten Kubernetes-Cluster zu BlueXP hinzu, um erweitertes Datenmanagement zu ermöglichen.
 
 
 
 == Schnellstart
 
-Führen Sie die folgenden Schritte aus, um schnell zu beginnen:
+Wird Verwendet link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] Sie können Kubernetes-Cluster in nur wenigen Schritten managen.
 
 [role="quick-margin-para"]
 Stellen Sie sicher, dass Ihre Umgebung die Voraussetzungen für Ihren Cluster-Typ erfüllt.

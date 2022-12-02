@@ -20,7 +20,7 @@ Astra Trident ist ein vollständig von NetApp unterstütztes Open-Source-Projekt
 
 == Funktionen
 
-Mit einer kompatiblen Version von Astra Trident, die über den Trident Operator implementiert wurde, können Sie Ihre Kubernetes-Cluster mithilfe von BlueXP (ehemals Cloud Manager) direkt managen.
+Mit einer kompatiblen Version von Astra Trident, die über den Trident Operator implementiert wurde, können Sie Ihre Kubernetes-Cluster direkt über managen link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] (Ehemals Cloud Manager)
 
 * Installation oder Upgrade von Astra Trident:
 * Hinzufügen und Managen von Clustern in Ihrer Hybrid-Cloud-Infrastruktur
