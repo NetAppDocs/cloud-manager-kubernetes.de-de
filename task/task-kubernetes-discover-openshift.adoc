@@ -22,6 +22,7 @@ Importieren Sie einen selbst gemanagten OpenShift-Cluster in BlueXP, damit Sie d
 
 Es ist möglich, ein selbst verwaltetes Kubernetes-Cluster mithilfe einer Kubernetes-Konfigurationsdatei zu importieren.
 
+.Bevor Sie beginnen
 Vor dem Hinzufügen eines OpenShift-Clusters müssen folgende Anforderungen berücksichtigt werden:
 
 * Die Datei `kubeconfig-sa`, die Sie in erstellt haben link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-openshift.html#create-a-kubeconfig-file["Erstellen Sie eine kubeconfig-Datei"].
@@ -42,4 +43,5 @@ image:screenshot-oc-certs.png["Ein Screenshot des Bildschirms zum Hochladen des 
 
 
 
+.Ergebnis
 BlueXP fügt dem Canvas den Kubernetes-Cluster hinzu.

@@ -41,4 +41,5 @@ image:screenshot-k8s-upgrade-trident.png["Einen Screenshot, wie das Upgrade von 
 
 
 
+.Ergebnisse
 Die neueste Version von Astra Trident ist installiert. Sie können nun Speicherklassen hinzufügen.

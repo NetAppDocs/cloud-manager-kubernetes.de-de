@@ -32,7 +32,7 @@ BlueXP Connector:: Für den Import und das Management von Kubernetes-Clustern is
 
 --
 Netzwerk-Konnektivität:: Zwischen dem Kubernetes-Cluster und dem Connector sowie zwischen dem Kubernetes-Cluster und Cloud Volumes ONTAP ist eine Netzwerkverbindung erforderlich.
-Kubernetes-Konfigurationsdatei (kubeconfig) mit RBAC-Autorisierung:: Zum Importieren von OpenShift-Clustern benötigen Sie eine kubeconfig-Datei mit der RBAC-Berechtigung, die erforderlich ist, um verschiedene Funktionen zu ermöglichen.  a kubeconfig file.
+Kubernetes-Konfigurationsdatei (kubeconfig) mit RBAC-Autorisierung:: Zum Importieren von OpenShift-Clustern benötigen Sie eine kubeconfig-Datei mit der RBAC-Berechtigung, die erforderlich ist, um verschiedene Funktionen zu ermöglichen. <<Erstellen Sie eine kubeconfig-Datei>>.
 +
 --
 * Backup und Restore: Backup und Restore erfordern nur grundlegende Autorisierung.
@@ -368,4 +368,5 @@ source create-kubeconfig.sh
 
 
 
+.Ergebnis
 Sie werden das resultierende verwenden `kubeconfig-sa` Datei zum Hinzufügen eines OpenShift-Clusters zu BlueXP.

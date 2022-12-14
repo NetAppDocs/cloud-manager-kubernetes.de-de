@@ -25,9 +25,9 @@ NOTE: In diesem Thema wird _Kubernetes Cluster_ verwendet, wobei die Konfigurati
 
 Astra Trident:: Eine der vier aktuellsten Versionen von Astra Trident ist erforderlich. Sie können Astra Trident direkt von BlueXP installieren oder aktualisieren. Sollten Sie link:https://docs.netapp.com/us-en/trident/trident-get-started/requirements.html["Prüfen Sie die Voraussetzungen"^] Vor der Installation von Astra Trident:
 Cloud Volumes ONTAP:: Cloud Volumes ONTAP muss als Back-End Storage für den Cluster eingerichtet werden. https://docs.netapp.com/us-en/trident/trident-use/backends.html["In der Astra Trident Dokumentation finden Sie die Konfigurationsschritte"^].
-BlueXP Connector:: In Azure muss ein Connector mit den erforderlichen Berechtigungen ausgeführt werden.  a Connector,Weitere Informationen finden Sie unten.
-Netzwerk-Konnektivität:: Zwischen dem Kubernetes-Cluster und dem Connector sowie zwischen dem Kubernetes-Cluster und Cloud Volumes ONTAP ist eine Netzwerkverbindung erforderlich.  networking requirements,Weitere Informationen finden Sie unten.
-RBAC-Autorisierung:: BlueXP unterstützt RBAC-fähige Cluster mit und ohne Active Directory. Die BlueXP Connector-Rolle muss für jeden Azure-Cluster autorisiert sein.  up RBAC authorization,Weitere Informationen finden Sie unten.
+BlueXP Connector:: In Azure muss ein Connector mit den erforderlichen Berechtigungen ausgeführt werden. <<Bereiten Sie einen Konnektor vor,Weitere Informationen finden Sie unten>>.
+Netzwerk-Konnektivität:: Zwischen dem Kubernetes-Cluster und dem Connector sowie zwischen dem Kubernetes-Cluster und Cloud Volumes ONTAP ist eine Netzwerkverbindung erforderlich. <<Netzwerkanforderungen prüfen,Weitere Informationen finden Sie unten>>.
+RBAC-Autorisierung:: BlueXP unterstützt RBAC-fähige Cluster mit und ohne Active Directory. Die BlueXP Connector-Rolle muss für jeden Azure-Cluster autorisiert sein. <<Einrichtung der RBAC-Autorisierung,Weitere Informationen finden Sie unten>>.
 
 
 
@@ -119,6 +119,7 @@ NOTE: Bei der Installation von Astra Trident installiert BlueXP das Astra Triden
 --
 
 
+.Bevor Sie beginnen
 Ihre RBAC ``subjects: name:`` Die Konfiguration variiert basierend auf Ihrem Kubernetes-Cluster-Typ leicht.
 
 * Wenn Sie einen *verwalteten AKS-Cluster* bereitstellen, benötigen Sie die Objekt-ID für die vom System zugewiesene verwaltete Identität für den Connector. Diese ID steht im Azure-Managementportal zur Verfügung.
@@ -128,6 +129,7 @@ image:screenshot-k8s-aks-obj-id.png["Ein Screenshot des vom System zugewiesenen 
 * Wenn Sie ein *selbst verwaltetes Kubernetes Cluster* bereitstellen, benötigen Sie den Benutzernamen eines autorisierten Benutzers.
 
 
+.Schritte
 Erstellen Sie eine Cluster-Rolle und Rollenbindung.
 
 . Erstellen Sie eine YAML-Datei, die den folgenden Text enthält, der auf Ihren Autorisierungsanforderungen basiert. Ersetzen Sie den ``subjects: kind:`` Variable mit Ihrem Benutzernamen und ``subjects: user:`` Entweder mit der Objekt-ID für die vom System zugewiesene verwaltete Identität oder mit dem Benutzernamen eines autorisierten Benutzers, wie oben beschrieben.

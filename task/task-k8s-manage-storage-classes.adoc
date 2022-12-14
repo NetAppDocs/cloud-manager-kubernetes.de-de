@@ -49,6 +49,7 @@ image:screenshot-k8s-select-storage-class.png["Ein Screenshot zeigt die Auswahl 
 
 
 
+.Ergebnisse
 Sie können auf klicken, um die Storage-Klasse auf der Ressourcenseite für das Kubernetes-Cluster anzuzeigen.
 
 image:screenshot-k8s-view-storage-class.png["Ein Screenshot mit „View Storage Class“ auf der Kubernetes Ressourcenseite."]
@@ -63,6 +64,7 @@ image:screenshot-k8s-view-storage-class.png["Ein Screenshot mit „View Storage 
 . Klicken Sie auf das Informationssymbol, um Details zur Arbeitsumgebung anzuzeigen.
 
 
+.Ergebnisse
 Das Fenster Details zur Arbeitsumgebung wird geöffnet.
 
 image:screenshot-k8s-info-storage-class.png["Einen Screenshot mit den Details der Arbeitsumgebung für das Kubernetes Cluster"]
@@ -80,6 +82,7 @@ image:screenshot-k8s-default-storage-class.png["Ein Screenshot des Aktionsmenüs
 
 
 
+.Ergebnisse
 Die ausgewählte Speicherklasse wird als Standard festgelegt.
 
 image:screenshot-k8s-default-set-storage-class.png["Ein Screenshot mit der Standard-Speicherklasse."]
@@ -101,4 +104,5 @@ image:screenshot-k8s-remove-confirm-storage-class.png["Ein Screenshot des Bestä
 
 
 
+.Ergebnisse
 Die ausgewählte Speicherklasse wird entfernt.

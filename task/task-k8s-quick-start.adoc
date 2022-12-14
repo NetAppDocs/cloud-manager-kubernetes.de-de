@@ -22,6 +22,7 @@ Fügen Sie in nur wenigen Schritten Kubernetes-Cluster zu BlueXP hinzu, um erwei
 
 Wird Verwendet link:https://docs.netapp.com/us-en/cloud-manager-setup-admin/index.html["BlueXP"^] Sie können Kubernetes-Cluster in nur wenigen Schritten managen.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Eins"] Voraussetzungen prüfen
 [role="quick-margin-para"]
 Stellen Sie sicher, dass Ihre Umgebung die Voraussetzungen für Ihren Cluster-Typ erfüllt.
 
@@ -34,6 +35,7 @@ link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kuberne
 [role="quick-margin-para"]
 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/requirements/kubernetes-reqs-gke.html["Anforderungen für Kubernetes-Cluster in Google Cloud"]
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Zwei"] Fügen Sie Ihre Kubernetes Cluster zu BlueXP hinzu
 [role="quick-margin-para"]
 Sie können Kubernetes-Cluster hinzufügen und sie mit BlueXP mit einer Arbeitsumgebung verbinden.
 
@@ -46,12 +48,14 @@ link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes
 [role="quick-margin-para"]
 link:https://docs.netapp.com/us-en/cloud-manager-kubernetes/task/task-kubernetes-discover-gke.html["Fügen Sie einen Google Cloud Kubernetes Cluster hinzu"]
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Vier"] Starten Sie die Bereitstellung persistenter Volumes
 [role="quick-margin-para"]
 Persistente Volumes können über native Kubernetes-Schnittstellen und -Konstrukte angefordert und gemanagt werden. BlueXP erstellt NFS- und iSCSI-Speicherklassen, die Sie bei der Bereitstellung persistenter Volumes verwenden können.
 
 [role="quick-margin-para"]
 link:https://docs.netapp.com/us-en/trident/trident-get-started/kubernetes-postdeployment.html#step-3-provision-your-first-volume["Erfahren Sie mehr über die Bereitstellung Ihres ersten Volumens mit Astra Trident"^].
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-4.png["Vier"] Verwalten Sie Ihre Cluster mit BlueXP
 [role="quick-margin-para"]
 Nachdem Sie BlueXP Kubernetes-Cluster hinzugefügt haben, können Sie die Cluster auf der BlueXP-Ressourcenseite verwalten.
 

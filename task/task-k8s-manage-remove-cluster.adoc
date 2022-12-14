@@ -28,4 +28,5 @@ image:screenshot-k8s-confirm-remove-cluster.png["Ein Screenshot der Seite, in de
 
 
 
+.Ergebnisse
 Der Kubernetes-Cluster wird aus dem Workspace entfernt und ist nicht mehr auf dem Canvas sichtbar.

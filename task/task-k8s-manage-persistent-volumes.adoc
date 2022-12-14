@@ -24,6 +24,7 @@ NOTE: BlueXP überwacht den Kubernetes-Cluster auf Änderungen am Backend und ak
 . Klicken Sie auf der Registerkarte *Übersicht* auf *Volumes anzeigen* oder klicken Sie auf die Registerkarte *Persistente Volumes*. Wenn keine persistenten Volumes konfiguriert sind, lesen Sie link:https://docs.netapp.com/us-en/trident/trident-concepts/provisioning.html["Bereitstellung"^] Weitere Informationen zur Bereitstellung von Volumes im Astra Trident erhalten Sie.
 
 
+.Ergebnisse
 Eine Tabelle der konfigurierten persistenten Volumes wird angezeigt.
 
 image:screenshot-k8s-volume-table.png["Einen Screenshot der Tabelle „persistente Volumes“."]
