@@ -803,7 +803,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-11-17 06:52:39 +0000">11/17/2022</time>
+    <time datetime="2022-12-14 18:30:04 +0000">12/14/2022</time>
     
   
 
@@ -847,15 +847,15 @@ In diesem Thema wird <em>Kubernetes Cluster</em> verwendet, wobei die Konfigurat
 </dd>
 <dt class="hdlist1">BlueXP Connector</dt>
 <dd>
-<p>Ein Connector muss in Google mit den erforderlichen Berechtigungen ausgeführt werden.  a Connector,Weitere Informationen finden Sie unten.</p>
+<p>Ein Connector muss in Google mit den erforderlichen Berechtigungen ausgeführt werden. <a href="#bereiten-sie-einen-konnektor-vor">Weitere Informationen finden Sie unten</a>.</p>
 </dd>
 <dt class="hdlist1">Netzwerk-Konnektivität</dt>
 <dd>
-<p>Zwischen dem Kubernetes-Cluster und dem Connector sowie zwischen dem Kubernetes-Cluster und Cloud Volumes ONTAP ist eine Netzwerkverbindung erforderlich.  networking requirements,Weitere Informationen finden Sie unten.</p>
+<p>Zwischen dem Kubernetes-Cluster und dem Connector sowie zwischen dem Kubernetes-Cluster und Cloud Volumes ONTAP ist eine Netzwerkverbindung erforderlich. <a href="#netzwerkanforderungen-prüfen">Weitere Informationen finden Sie unten</a>.</p>
 </dd>
 <dt class="hdlist1">RBAC-Autorisierung</dt>
 <dd>
-<p>BlueXP unterstützt RBAC-fähige Cluster mit und ohne Active Directory. Die BlueXP Connector-Rolle muss für jedes GKE-Cluster autorisiert sein.  up RBAC authorization,Weitere Informationen finden Sie unten.</p>
+<p>BlueXP unterstützt RBAC-fähige Cluster mit und ohne Active Directory. Die BlueXP Connector-Rolle muss für jedes GKE-Cluster autorisiert sein. <a href="#einrichtung-der-rbac-autorisierung">Weitere Informationen finden Sie unten</a>.</p>
 </dd>
 </dl>
 </div>
@@ -989,6 +989,7 @@ Bei der Installation von Astra Trident installiert BlueXP das Astra Trident Back
 </dl>
 </div>
 <div class="paragraph">
+<div class="title">Bevor Sie beginnen</div>
 <p>Zu konfigurieren <code>subjects: name:</code> In der YAML-Datei müssen Sie die eindeutige BlueXP-ID kennen.</p>
 </div>
 <div class="paragraph">
@@ -1014,6 +1015,7 @@ gcloud iam service-accounts describe &lt;service-account-email&gt;</code></pre>
 </ul>
 </div>
 <div class="paragraph">
+<div class="title">Schritte</div>
 <p>Erstellen Sie eine Cluster-Rolle und Rollenbindung.</p>
 </div>
 <div class="olist arabic">
